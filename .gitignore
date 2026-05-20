@@ -1,0 +1,7 @@
+samples/
+sweeps/
+maps/
+v1.0-mini/
+results/
+__pycache__/
+*.pyc
