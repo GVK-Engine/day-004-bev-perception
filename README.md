@@ -94,10 +94,15 @@ ________________________________________
 
 Camera positions on the vehicle:
     CAM_FRONT         center forward
+    
     CAM_FRONT_RIGHT   front-right corner
+    
     CAM_FRONT_LEFT    front-left corner
+    
     CAM_BACK          center rear
+    
     CAM_BACK_RIGHT    rear-right corner
+    
     CAM_BACK_LEFT     rear-left corner
 
 ________________________________________
@@ -107,7 +112,7 @@ ________________________________________
 Demo BEV visualization (synthetic, no data required):
 https://drive.google.com/file/d/18Qz1QaPoYbe6dqJZnbvrOpdWzlknAhzv/view?usp=drive_link
 
-Full visualization sample 00 — Singapore streets:
+Full visualization sample 00 - Singapore streets:
 https://drive.google.com/file/d/1V52KcZKNhuhXA6PmKLorOxrBHiMHx4zi/view?usp=drive_link
 
 Full visualization sample 01:
@@ -211,7 +216,7 @@ ________________________________________
 
 IPM is a ground plane assumption, not a depth measurement.
 
-This is the critical distinction. When you implement IPM manually — tracing
+This is the critical distinction. When you implement IPM manually - tracing
 each BEV grid cell back through the camera transform to sample a pixel color
 - you realize the algorithm assumes z=0 for every world point. It works
 perfectly for road markings and low obstacles. It fails for tall objects
